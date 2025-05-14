@@ -1,0 +1,70 @@
+[0.000000] (-) TimerEvent: {}
+[0.000297] (p2_kf_adr) JobQueued: {'identifier': 'p2_kf_adr', 'dependencies': OrderedDict()}
+[0.000418] (p2_kf_adr) JobStarted: {'identifier': 'p2_kf_adr'}
+[0.099972] (-) TimerEvent: {}
+[0.200463] (-) TimerEvent: {}
+[0.300977] (-) TimerEvent: {}
+[0.322365] (p2_kf_adr) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/p2_kf_adr', 'build', '--build-base', '/home/student/ros2_ws/src/p2_kf_adr/build/p2_kf_adr/build', 'install', '--record', '/home/student/ros2_ws/src/p2_kf_adr/build/p2_kf_adr/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/student/ros2_ws/src/p2_kf_adr', 'env': {'HOSTNAME': 'rafab03-HP-Laptop-15s-fq4xxx', 'SHLVL': '1', 'HOME': '/home/student', 'ZSH_THEME': 'agnoster', 'OLDPWD': '/home/student/ros2_ws/src', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'TERM': 'xterm', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'USER_PASSWORD': 'student', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'DEBIAN_FRONTEND': 'noninteractive', 'PWD': '/home/student/ros2_ws/src/p2_kf_adr/build/p2_kf_adr', 'CONTAINER_IMAGE_VER': 'v1.0.0', 'LC_ALL': 'C.UTF-8', 'USER_NAME': 'student', 'COLCON': '1', 'PYTHONPATH': '/home/student/ros2_ws/src/p2_kf_adr/build/p2_kf_adr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages:'}, 'shell': False}
+[0.401065] (-) TimerEvent: {}
+[0.451835] (p2_kf_adr) StdoutLine: {'line': b'running egg_info\n'}
+[0.452300] (p2_kf_adr) StdoutLine: {'line': b'creating build/p2_kf_adr/p2_kf_adr.egg-info\n'}
+[0.452376] (p2_kf_adr) StdoutLine: {'line': b'writing build/p2_kf_adr/p2_kf_adr.egg-info/PKG-INFO\n'}
+[0.452470] (p2_kf_adr) StdoutLine: {'line': b'writing dependency_links to build/p2_kf_adr/p2_kf_adr.egg-info/dependency_links.txt\n'}
+[0.452608] (p2_kf_adr) StdoutLine: {'line': b'writing entry points to build/p2_kf_adr/p2_kf_adr.egg-info/entry_points.txt\n'}
+[0.452672] (p2_kf_adr) StdoutLine: {'line': b'writing requirements to build/p2_kf_adr/p2_kf_adr.egg-info/requires.txt\n'}
+[0.452729] (p2_kf_adr) StdoutLine: {'line': b'writing top-level names to build/p2_kf_adr/p2_kf_adr.egg-info/top_level.txt\n'}
+[0.452785] (p2_kf_adr) StdoutLine: {'line': b"writing manifest file 'build/p2_kf_adr/p2_kf_adr.egg-info/SOURCES.txt'\n"}
+[0.453871] (p2_kf_adr) StdoutLine: {'line': b"reading manifest file 'build/p2_kf_adr/p2_kf_adr.egg-info/SOURCES.txt'\n"}
+[0.454327] (p2_kf_adr) StdoutLine: {'line': b"writing manifest file 'build/p2_kf_adr/p2_kf_adr.egg-info/SOURCES.txt'\n"}
+[0.454461] (p2_kf_adr) StdoutLine: {'line': b'running build\n'}
+[0.454599] (p2_kf_adr) StdoutLine: {'line': b'running build_py\n'}
+[0.454712] (p2_kf_adr) StdoutLine: {'line': b'creating /home/student/ros2_ws/src/p2_kf_adr/build/p2_kf_adr/build\n'}
+[0.454800] (p2_kf_adr) StdoutLine: {'line': b'creating /home/student/ros2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib\n'}
+[0.454854] (p2_kf_adr) StdoutLine: {'line': b'creating /home/student/ros2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr\n'}
+[0.454904] (p2_kf_adr) StdoutLine: {'line': b'copying p2_kf_adr/motion_models.py -> /home/student/ros2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr\n'}
+[0.454954] (p2_kf_adr) StdoutLine: {'line': b'copying p2_kf_adr/kf_estimation.py -> /home/student/ros2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr\n'}
+[0.455034] (p2_kf_adr) StdoutLine: {'line': b'copying p2_kf_adr/visualization.py -> /home/student/ros2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr\n'}
+[0.455117] (p2_kf_adr) StdoutLine: {'line': b'copying p2_kf_adr/observation_models.py -> /home/student/ros2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr\n'}
+[0.455168] (p2_kf_adr) StdoutLine: {'line': b'copying p2_kf_adr/kf_estimation_vel.py -> /home/student/ros2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr\n'}
+[0.455218] (p2_kf_adr) StdoutLine: {'line': b'copying p2_kf_adr/sensor_utils.py -> /home/student/ros2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr\n'}
+[0.455297] (p2_kf_adr) StdoutLine: {'line': b'copying p2_kf_adr/__init__.py -> /home/student/ros2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr\n'}
+[0.455366] (p2_kf_adr) StdoutLine: {'line': b'creating /home/student/ros2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr/filters\n'}
+[0.455435] (p2_kf_adr) StdoutLine: {'line': b'copying p2_kf_adr/filters/kalman_filter.py -> /home/student/ros2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr/filters\n'}
+[0.455503] (p2_kf_adr) StdoutLine: {'line': b'copying p2_kf_adr/filters/__init__.py -> /home/student/ros2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr/filters\n'}
+[0.455728] (p2_kf_adr) StdoutLine: {'line': b'running install\n'}
+[0.456051] (p2_kf_adr) StdoutLine: {'line': b'running install_lib\n'}
+[0.456720] (p2_kf_adr) StdoutLine: {'line': b'creating /home/student/ros2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr\n'}
+[0.456809] (p2_kf_adr) StdoutLine: {'line': b'copying /home/student/ros2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr/motion_models.py -> /home/student/ros2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr\n'}
+[0.456892] (p2_kf_adr) StdoutLine: {'line': b'copying /home/student/ros2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr/kf_estimation.py -> /home/student/ros2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr\n'}
+[0.456973] (p2_kf_adr) StdoutLine: {'line': b'copying /home/student/ros2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr/visualization.py -> /home/student/ros2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr\n'}
+[0.457054] (p2_kf_adr) StdoutLine: {'line': b'copying /home/student/ros2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr/observation_models.py -> /home/student/ros2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr\n'}
+[0.457132] (p2_kf_adr) StdoutLine: {'line': b'copying /home/student/ros2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr/kf_estimation_vel.py -> /home/student/ros2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr\n'}
+[0.457209] (p2_kf_adr) StdoutLine: {'line': b'copying /home/student/ros2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr/sensor_utils.py -> /home/student/ros2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr\n'}
+[0.457293] (p2_kf_adr) StdoutLine: {'line': b'copying /home/student/ros2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr/__init__.py -> /home/student/ros2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr\n'}
+[0.457394] (p2_kf_adr) StdoutLine: {'line': b'creating /home/student/ros2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/filters\n'}
+[0.457460] (p2_kf_adr) StdoutLine: {'line': b'copying /home/student/ros2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr/filters/kalman_filter.py -> /home/student/ros2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/filters\n'}
+[0.457532] (p2_kf_adr) StdoutLine: {'line': b'copying /home/student/ros2_ws/src/p2_kf_adr/build/p2_kf_adr/build/lib/p2_kf_adr/filters/__init__.py -> /home/student/ros2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/filters\n'}
+[0.457987] (p2_kf_adr) StdoutLine: {'line': b'byte-compiling /home/student/ros2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/motion_models.py to motion_models.cpython-310.pyc\n'}
+[0.458260] (p2_kf_adr) StdoutLine: {'line': b'byte-compiling /home/student/ros2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/kf_estimation.py to kf_estimation.cpython-310.pyc\n'}
+[0.458674] (p2_kf_adr) StdoutLine: {'line': b'byte-compiling /home/student/ros2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/visualization.py to visualization.cpython-310.pyc\n'}
+[0.459448] (p2_kf_adr) StdoutLine: {'line': b'byte-compiling /home/student/ros2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/observation_models.py to observation_models.cpython-310.pyc\n'}
+[0.459538] (p2_kf_adr) StdoutLine: {'line': b'byte-compiling /home/student/ros2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/kf_estimation_vel.py to kf_estimation_vel.cpython-310.pyc\n'}
+[0.459819] (p2_kf_adr) StdoutLine: {'line': b'byte-compiling /home/student/ros2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/sensor_utils.py to sensor_utils.cpython-310.pyc\n'}
+[0.460358] (p2_kf_adr) StdoutLine: {'line': b'byte-compiling /home/student/ros2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/__init__.py to __init__.cpython-310.pyc\n'}
+[0.460450] (p2_kf_adr) StdoutLine: {'line': b'byte-compiling /home/student/ros2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/filters/kalman_filter.py to kalman_filter.cpython-310.pyc\n'}
+[0.460987] (p2_kf_adr) StdoutLine: {'line': b'byte-compiling /home/student/ros2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr/filters/__init__.py to __init__.cpython-310.pyc\n'}
+[0.461033] (p2_kf_adr) StdoutLine: {'line': b'running install_data\n'}
+[0.461100] (p2_kf_adr) StdoutLine: {'line': b'creating /home/student/ros2_ws/src/p2_kf_adr/install/p2_kf_adr/share/ament_index\n'}
+[0.461179] (p2_kf_adr) StdoutLine: {'line': b'creating /home/student/ros2_ws/src/p2_kf_adr/install/p2_kf_adr/share/ament_index/resource_index\n'}
+[0.461221] (p2_kf_adr) StdoutLine: {'line': b'creating /home/student/ros2_ws/src/p2_kf_adr/install/p2_kf_adr/share/ament_index/resource_index/packages\n'}
+[0.461265] (p2_kf_adr) StdoutLine: {'line': b'copying resource/p2_kf_adr -> /home/student/ros2_ws/src/p2_kf_adr/install/p2_kf_adr/share/ament_index/resource_index/packages\n'}
+[0.461345] (p2_kf_adr) StdoutLine: {'line': b'copying package.xml -> /home/student/ros2_ws/src/p2_kf_adr/install/p2_kf_adr/share/p2_kf_adr\n'}
+[0.461387] (p2_kf_adr) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.462687] (p2_kf_adr) StdoutLine: {'line': b'Copying build/p2_kf_adr/p2_kf_adr.egg-info to /home/student/ros2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr-0.0.0-py3.10.egg-info\n'}
+[0.463429] (p2_kf_adr) StdoutLine: {'line': b'running install_scripts\n'}
+[0.477539] (p2_kf_adr) StdoutLine: {'line': b'Installing kf_estimation script to /home/student/ros2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/p2_kf_adr\n'}
+[0.477638] (p2_kf_adr) StdoutLine: {'line': b'Installing kf_estimation_vel script to /home/student/ros2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/p2_kf_adr\n'}
+[0.477694] (p2_kf_adr) StdoutLine: {'line': b"writing list of installed files to '/home/student/ros2_ws/src/p2_kf_adr/build/p2_kf_adr/install.log'\n"}
+[0.492742] (p2_kf_adr) CommandEnded: {'returncode': 0}
+[0.499436] (p2_kf_adr) JobEnded: {'identifier': 'p2_kf_adr', 'rc': 0}
+[0.500206] (-) EventReactorShutdown: {}

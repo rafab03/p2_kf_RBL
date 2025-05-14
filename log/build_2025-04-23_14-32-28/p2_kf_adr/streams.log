@@ -1,0 +1,22 @@
+[0.568s] Invoking command in '/home/student/ros2_ws/src/p2_kf_adr': PYTHONPATH=/home/student/ros2_ws/src/p2_kf_adr/build/p2_kf_adr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/p2_kf_adr build --build-base /home/student/ros2_ws/src/p2_kf_adr/build/p2_kf_adr/build install --record /home/student/ros2_ws/src/p2_kf_adr/build/p2_kf_adr/install.log --single-version-externally-managed install_data
+[0.728s] running egg_info
+[0.729s] writing build/p2_kf_adr/p2_kf_adr.egg-info/PKG-INFO
+[0.729s] writing dependency_links to build/p2_kf_adr/p2_kf_adr.egg-info/dependency_links.txt
+[0.729s] writing entry points to build/p2_kf_adr/p2_kf_adr.egg-info/entry_points.txt
+[0.729s] writing requirements to build/p2_kf_adr/p2_kf_adr.egg-info/requires.txt
+[0.729s] writing top-level names to build/p2_kf_adr/p2_kf_adr.egg-info/top_level.txt
+[0.731s] reading manifest file 'build/p2_kf_adr/p2_kf_adr.egg-info/SOURCES.txt'
+[0.732s] writing manifest file 'build/p2_kf_adr/p2_kf_adr.egg-info/SOURCES.txt'
+[0.732s] running build
+[0.732s] running build_py
+[0.733s] running install
+[0.733s] running install_lib
+[0.735s] running install_data
+[0.735s] running install_egg_info
+[0.737s] removing '/home/student/ros2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr-0.0.0-py3.10.egg-info' (and everything under it)
+[0.737s] Copying build/p2_kf_adr/p2_kf_adr.egg-info to /home/student/ros2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages/p2_kf_adr-0.0.0-py3.10.egg-info
+[0.737s] running install_scripts
+[0.754s] Installing kf_estimation script to /home/student/ros2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/p2_kf_adr
+[0.755s] Installing kf_estimation_vel script to /home/student/ros2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/p2_kf_adr
+[0.755s] writing list of installed files to '/home/student/ros2_ws/src/p2_kf_adr/build/p2_kf_adr/install.log'
+[0.777s] Invoked command in '/home/student/ros2_ws/src/p2_kf_adr' returned '0': PYTHONPATH=/home/student/ros2_ws/src/p2_kf_adr/build/p2_kf_adr/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/src/p2_kf_adr/install/p2_kf_adr/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/p2_kf_adr build --build-base /home/student/ros2_ws/src/p2_kf_adr/build/p2_kf_adr/build install --record /home/student/ros2_ws/src/p2_kf_adr/build/p2_kf_adr/install.log --single-version-externally-managed install_data

@@ -93,4 +93,4 @@ def generate_noisy_measurement_2(pose, vx, vy, omega, noise_std=None):
     x, y, theta = pose
     true_measurement = np.array([x, y, theta, vx, vy, omega])
     noise = np.random.normal(0, noise_std, size=6)
-    return true_measurement + noise
+    return (true_measurement + noise)

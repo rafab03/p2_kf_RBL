@@ -1,0 +1,4 @@
+[console_scripts]
+kf_estimation = p2_kf_adr.kf_estimation:main
+kf_estimation_vel = p2_kf_adr.kf_estimation_vel:main
+

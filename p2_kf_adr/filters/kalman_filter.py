@@ -25,17 +25,43 @@ class KalmanFilter:
         self.Q = np.diag(self.obs_noise_std ** 2)
             
     def predict(self, u, dt):
-        # TODO: Implement Kalman filter prediction step
-        # Predict the new mean (mu) using A, B, and control input u
-        # Predict the new covariance (Sigma) using A and R
-        return 
+
+        A = self.A()  
+        B = self.B(self.mu, dt) # Control input matrix B
+
+        self.mu = A @ self.mu + B @ u
+
+        # Predict covariance
+        self.Sigma = A @ self.Sigma @ A.T + self.R
+
+
+        return self.mu, self.Sigma
 
     def update(self, z):
         # TODO: Implement Kalman filter correction step
         # Compute Kalman gain K
         # Update the mean (mu) with the measurement z
         # Update the covariance (Sigma)
-        return
+        # Innovation (residual)
+        C= self.C
+        Q= self.Q
+
+        y = z - C @ self.mu
+        # Innovation covariance
+        S = C @ self.Sigma @ C.T + Q
+
+        # Kalman gain
+        K = self.Sigma @ C.T @ np.linalg.inv(S)
+
+        # Update state
+        self.mu = self.mu+ K @ y
+
+        # Update covariance
+        I = np.eye(self.Sigma.shape[0])
+        self.Sigma = (I - K @ C) @ self.Sigma
+    
+
+        return self.mu, self.Sigma
 
 class KalmanFilter_2:
     def __init__(self, initial_state, initial_covariance,
@@ -54,13 +80,19 @@ class KalmanFilter_2:
         self.Q = np.diag(self.obs_noise_std ** 2)  # Observation noise covariance
 
     def predict(self, u=None, dt=1.0):
-        # TODO: Implement Kalman prediction step for full state (6D)
-        # Pure KF: use only the A matrix to update the state and covariance
-        pass
+        # Implement Kalman prediction step for full state (6D)
+        A=self.A(dt)
+        self.mu = A @ self.mu 
+        self.Sigma = A @ self.Sigma @ A.T + self.R
+
+        return self.mu, self.Sigma
 
     def update(self, z):
-        # TODO: Implement update step
-        # Compute Kalman gain
-        # Correct the predicted state with measurement
-        # Update covariance
-        pass
+        # Implement update step
+        S= self.C @ self.Sigma @ self.C.T + self.Q
+        y = z - self.C @ self.mu
+        K = self.Sigma @ self.C.T @ np.linalg.inv(S)
+        self.mu = self.mu + K @ y
+        self.Sigma = (np.eye(self.Sigma.shape[0]) - K @ self.C) @ self.Sigma
+
+        return self.mu, self.Sigma
